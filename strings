@@ -1,0 +1,50 @@
+#print statement
+""""
+print('Hello \n \t World')
+print('how\'s it going?') # use \ in the front of ' so it ignored the chracter infront of it
+
+print("One, 'two', \"three", 'four, \five\ once, ''I' 'caught a fish ''//alive\\'"")
+
+user_input = int(input("how many apples do you have? \n>>>"))
+"""""
+
+#finding the area of the circle
+""""
+pi = int(input('Enter a value for Pi >>> \n'))
+radius = int(input('Enter a value for radius >>> \n'))
+area = pi * radius**2
+
+print('You enteted', pi, 'for pi and ', radius, 'for radius, the area of the circle is ', area)
+"""
+
+#convert fahrenheit to celsius
+"""
+cel = int(input("Enter the Celsius you want to convert to Fahrenheit >>>\n"))
+fah = (cel * 9/5) + 32
+print('Fahrenheit is', fah)
+"""
+
+#if and else statement
+"""
+temp = int(input("Enter the temperature"))
+
+if temp > 85:
+    print("Wear shorts")
+elif temp >66 and temp < 85:
+    print("Wear pajamas")
+else:
+    print('Wear jacket')
+"""
+
+
+#Strings
+"""
+my_string = 'python'
+print(len(my_string))
+print(my_string.upper())
+print(my_string.capitalize())
+"""
+
+#for loop
+for i in range(10):
+    print(i, end = "")
